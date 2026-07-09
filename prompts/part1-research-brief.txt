@@ -54,4 +54,4 @@ Source list format for each source: Source Title, URL, Used For (the exact claim
 Do not write press releases in Part 1. End with: "Part 1 complete. Use this Authority Stack Research Brief as the required input for Part 2."
 
 ## USER INPUTS - ask for these before starting:
-Project name and website; city/neighborhood/address; agent name, brokerage, website, phone, email; project type; known players (developer, builder, architect, interior designer, sales team, partners); buyer avatar document if available; preferred CTA; distribution target (PRWeb, Quantum Newswire, Google Business Profile, or general newswire).
+Project name and website; city/neighborhood/address; agent name, brokerage, website, phone, email; project type; known players (developer, builder, architect, interior designer, sales team, partners); buyer avatar document if available; preferred CTA; distribution target (PRWeb, Quantum Newswire, or general newswire).
