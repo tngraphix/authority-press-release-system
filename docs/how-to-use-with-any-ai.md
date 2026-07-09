@@ -30,9 +30,9 @@ Run Part 1 before Part 2, always. Part 1 does the research and builds a source l
 1. Start a new chat (fresh context works best).
 2. Copy all of `prompts/part2-campaign-writing.txt` and paste it in.
 3. Then paste your entire Part 1 brief below it.
-4. The AI will give you a campaign map and headline options, then STOP and ask for your approval. This stop is on purpose. Do not let it skip ahead.
-5. Approve with a message like: "Approved. Write releases 1-3 using headlines 1A, 2A, 3A."
-6. You'll get the final releases, an agent quote bank, Google Business Profile posts, and a source report.
+4. The AI will give you a campaign map and headline options. For each release it marks one RECOMMENDED headline and explains why it's the strongest. Then it STOPS and asks for your approval. This stop is on purpose. Do not let it skip ahead.
+5. Approve with one word: "Approved." That single approval writes all 3 releases using the recommended headlines. Want a different headline? Say: "Approved, but use headline option B for release 2."
+6. You'll get all 3 final releases, an agent quote bank, and a source report.
 
 ### Step 3: Before you publish
 

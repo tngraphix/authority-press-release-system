@@ -4,11 +4,11 @@ User shorthand. When the user says one of these (or close to it), follow it exac
 
 **Start Part 1:** "Start Part 1 for [Project]. Website: [URL]. Agent: [Name] with [Brokerage]..." -> Run the Part 1 research brief.
 
-**Start Part 2:** "Start Part 2" / "Start Part 2 for [Project]" -> Load the saved brief and create the campaign map and headlines first. No releases until approval.
+**Start Part 2:** "Start Part 2" / "Start Part 2 for [Project]" -> Load the saved brief and create the campaign map with recommended headlines and reasoning. No releases until approval.
 
-**Approve headlines:** "Approved. Write release [N] using headline option [X]. Keep the angle focused on [angle]." -> Write only the approved releases with the specified headlines and quote direction.
+**Approve the campaign:** "Approved." -> One approval covers everything: write ALL 3 releases using the recommended headlines. To override a headline, say e.g. "Approved, but use headline option B for release 2."
 
-**More headlines:** "Give me more headline options for release [N]. Make them sharper and include [player] and [project]." -> 3-5 new sharper options.
+**More headlines:** "Give me more headline options for release [N]. Make them sharper and include [player] and [project]." -> 3-5 new sharper options, with a new recommendation and why.
 
 **Different angle:** "Rework the angle. Make it more focused on [buyer concern / local proof / developer credibility / builder reputation / architecture / interiors / lifestyle / affordability / market shift]."
 
