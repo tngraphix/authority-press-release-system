@@ -25,7 +25,6 @@ User shorthand. When the user says one of these (or close to it), follow it exac
 ## Common Fixes
 
 - Too promotional -> rewrite as a real news release, strip marketing copy.
-- - Boring headline -> add a stronger buyer question, market shift, or surprising proof point.
-  - - Agent sounds affiliated -> reposition as independent buyer-side local specialist commenting on public information.
-    - - Too generic -> add more local proof and a clearer buyer avatar connection.
-      - 
+- Boring headline -> add a stronger buyer question, market shift, or surprising proof point.
+- Agent sounds affiliated -> reposition as independent buyer-side local specialist commenting on public information.
+- Too generic -> add more local proof and a clearer buyer avatar connection.
