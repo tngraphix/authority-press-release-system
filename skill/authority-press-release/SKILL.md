@@ -1,6 +1,6 @@
 ---
 name: authority-press-release
-description: Authority Press Release engine for real estate agents. ALWAYS use this skill when the user says "authority press release", "run the authority release", "authority stack", "press release campaign", "start part 1", "start part 2", "research brief for [project]", "write the press releases", "PR campaign for [property]", or gives any new-construction project, condo, luxury building, or community name and asks for press releases, PR, newswire content, or GBP posts. Part 1 builds a source-backed Authority Stack Research Brief via live web research (no invented facts, every claim sourced). Part 2 turns it into a campaign map, headlines, up to 3 news-style releases, an agent quote bank, and GBP posts. Agent is positioned as a buyer-side local specialist, never the official project rep. One approval gate at the campaign map. Saves everything to the property's Press Releases folder.
+description: Authority Press Release engine for real estate agents. ALWAYS use this skill when the user says "authority press release", "run the authority release", "authority stack", "press release campaign", "start part 1", "start part 2", "research brief for [project]", "write the press releases", "PR campaign for [property]", or gives any new-construction project, condo, luxury building, or community name and asks for press releases, PR, or newswire content. Part 1 builds a source-backed Authority Stack Research Brief via live web research (no invented facts, every claim sourced). Part 2 turns it into a campaign map, recommended headlines with reasoning, 3 news-style releases, and an agent quote bank. One approval writes all 3 releases. Agent is positioned as a buyer-side local specialist, never the official project rep. One approval gate at the campaign map. Saves everything to the property's Press Releases folder.
 ---
 
 # Authority Press Release
@@ -13,7 +13,7 @@ Why this works: newswires and answer engines reward real news structure, named e
 
 **Part 1 - Authority Stack Research Brief.** Live web research on the project, its players, and the location. Output: one research brief document with a full source list. Run once per project. Full instructions: `references/part1-research-brief.md`
 
-**Part 2 - Campaign Map + Press Releases.** Uses the Part 1 brief as the source of truth. Output: campaign map, headlines, up to 3 releases, agent quote bank, GBP posts, source report. Full instructions: `references/part2-campaign-writing.md`
+**Part 2 - Campaign Map + Press Releases.** Uses the Part 1 brief as the source of truth. Output: campaign map, headline options with a marked recommendation and why, 3 releases, agent quote bank, source report. Full instructions: `references/part2-campaign-writing.md`
 
 Never run Part 2 without a completed Part 1 brief. If the user asks for releases and no brief exists for that project, run Part 1 first (say that's what you're doing), then continue into Part 2.
 
@@ -25,11 +25,11 @@ Never run Part 2 without a completed Part 1 brief. If the user asks for releases
 
 ## Inputs
 
-Collect what's available from the message, the project folder, and the property's avatar documents before asking anything: project name, project website, location, agent name/brokerage/website/contact, project type, known players, avatar/ICA doc, preferred CTA, distribution target (PRWeb, Quantum Newswire, GBP, general newswire).
+Collect what's available from the message, the project folder, and the property's avatar documents before asking anything: project name, project website, location, agent name/brokerage/website/contact, project type, known players, avatar/ICA doc, preferred CTA, distribution target (PRWeb, Quantum Newswire, or general newswire).
 
 **Auto-load the avatar:** check the current project folder for any buyer avatar, ICA (ideal client avatar), or audience research documents and use them without asking. Only ask the user for inputs that are missing AND required (project name, agent identity). Ask once, up front, then run end-to-end to the approval gate.
 
-Defaults when unspecified: CTA is a buyer consultation; distribution is general newswire + GBP. Agent name and brokerage are always required - ask if missing.
+Defaults when unspecified: CTA is a buyer consultation; distribution is general newswire. Agent name and brokerage are always required - ask if missing.
 
 ## Non-Negotiable Rules (both parts)
 
@@ -41,7 +41,7 @@ Defaults when unspecified: CTA is a buyer consultation; distribution is general 
 
 ## Approval Gate
 
-After the Part 2 campaign map and headline options, STOP and ask the user to approve: which releases to write, which headline for each, angle edits, and players to emphasize or avoid. All agent quotes are marked "Agent Approval Required." Do not write full releases before approval. There are no other questions after inputs are collected.
+After the Part 2 campaign map and headline options, STOP and ask the user to approve the campaign. Every release must show a RECOMMENDED headline with 1-2 sentences on why it is the strongest. One approval covers all 3 releases: when the user approves, write all 3 using the recommended headlines (or any overrides they give). Do not ask them to approve releases one by one. All agent quotes are marked "Agent Approval Required." Do not write full releases before approval. There are no other questions after inputs are collected.
 
 ## File Outputs
 
@@ -51,7 +51,6 @@ Save everything to `[Property folder]/Press Releases/` inside the current projec
 - `[Project]_Campaign_Map.docx` (Part 2, at approval gate)
 - `[Project]_Release_1.docx`, `_Release_2.docx`, `_Release_3.docx`
 - `[Project]_Agent_Quote_Bank.docx`
-- `[Project]_GBP_Posts.txt`
 - `[Project]_Source_Report.txt`
 
 Use the docx skill for Word outputs. Save each phase as its own file as you go, not just at the end.
