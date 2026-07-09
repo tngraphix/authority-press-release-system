@@ -12,7 +12,7 @@ Newswires and AI answer engines (ChatGPT, Perplexity, Google AI) reward real new
 
 **Part 1 — Authority Stack Research Brief.** Live research on the project, its players, and the location. Produces a research brief with a full source list. Run once per project.
 
-**Part 2 — Campaign Map + Press Releases.** Uses the Part 1 brief as the single source of truth. Produces a campaign map, headline options, up to 3 news-style releases, an agent quote bank, and Google Business Profile posts. Stops for your approval before any release is written.
+**Part 2 — Campaign Map + Press Releases.** Uses the Part 1 brief as the single source of truth. Produces a campaign map and headline options with a marked recommendation and the reasoning behind it, then stops for your approval. One approval writes all 3 news-style releases plus an agent quote bank.
 
 ## Core rules (non-negotiable)
 
