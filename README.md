@@ -40,7 +40,7 @@ Use the standalone prompts in `prompts/` with ChatGPT, Claude.ai, or any capable
 1. Paste `prompts/part1-research-brief.txt` and give it your project info. Save the output.
 2. Paste `prompts/part2-campaign-writing.txt` plus the Part 1 brief. Approve the campaign map and headlines before it writes releases.
 
-See `docs/quick-commands.md` for the command shorthand (approve headlines, rework angles, compliance review, and more).
+See `docs/how-to-use-with-any-ai.md` for a plain-English, step-by-step guide to running this system in Claude, ChatGPT, Gemini, Perplexity, or any other AI tool. See `docs/quick-commands.md` for the command shorthand (approve headlines, rework angles, compliance review, and more).
 
 ## Compliance note
 
